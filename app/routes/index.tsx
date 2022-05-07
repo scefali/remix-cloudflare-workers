@@ -1,3 +1,5 @@
+import { Link } from "@remix-run/react";
+
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
@@ -11,6 +13,9 @@ export default function Index() {
           >
             15m Quickstart Blog Tutorial
           </a>
+          <li>
+            <Link to="/test/">Test</Link>
+          </li>
         </li>
         <li>
           <a
